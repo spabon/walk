@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @walk.start %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @walk.distance %>
+</p>
+
+<p>
+  <strong>Calories:</strong>
+  <%= @walk.calories %>
+</p>
+
+<p>
+  <strong>Speed:</strong>
+  <%= @walk.speed %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @walk.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_walk_path(@walk) %> |
+<%= link_to 'Back', walks_path %>
